@@ -12,7 +12,6 @@ const Root = () => {
     <div id="root">
       <div id="rootNav">
         <NavToolBar brandName={brand} />
-        <br/><br/>
       </div>
       <div id="rootFooter">
         <Footer />

@@ -6,8 +6,8 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div id="rootFooter">
-        <div className='container py-3'>
-          <div className='row'>
+        <div className='container py-5'>
+          <div className='row pt-3'>
             <div className='col-0 col-lg-1 order-md-1 rootDesktop'></div>
             <div className='col-12 col-md-6 col-lg-4 pt-3 pb-2 order-2 order-md-2'>
               <div className='jumbotron mb-2 text-center py-1'>

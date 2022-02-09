@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import { TrinityRingsSpinner } from 'react-epic-spinners';
@@ -11,7 +12,17 @@ const NavToolBar = (props) => {
         setArrowDirection(!arrowDirection);
     }
   return (
-    <nav id="rootNavbar" className="navbar navbar-expand-md fixed-top" aria-label="Root Navbar">
+    <motion.nav id="rootNavbar" className="navbar navbar-expand-md fixed-top" aria-label="Root Navbar"
+        initial={{
+            y: -100
+        }}
+        animate={{
+            y: 0
+        }}
+        transition={{
+            type: "spring",
+            stiffness: 50
+        }}>
         <div className="container">
         <div className="rootDesktop"><TrinityRingsSpinner color="#C4DFE6" size="30" animationDuration={7000} /></div>
         <span className="navbar-brand clicker px-0 px-lg-2">{props.brandName}</span>
@@ -30,7 +41,7 @@ const NavToolBar = (props) => {
             </div>
         </div>
         </div>
-    </nav>
+    </motion.nav>
   );
 };
 
