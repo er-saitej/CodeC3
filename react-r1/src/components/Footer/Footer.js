@@ -16,10 +16,12 @@ const Footer = () => {
               </div>
               <motion.div className='jumbotron px-3 py-3'
                 initial={{
-                  opacity: 0.3
+                  opacity: 0.3,
+                  rotateY: 270
                 }}
-                animate={{
-                  opacity: 1
+                whileInView={{
+                  opacity: 1,
+                  rotateY: 360
                 }}
                 transition={{
                   type:"spring",
