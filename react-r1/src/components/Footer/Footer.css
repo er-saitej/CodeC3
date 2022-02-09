@@ -1,0 +1,13 @@
+#rootFooter {
+    background: #003B46;
+    color: #C4DFE6;
+}
+
+.jumbotron {
+    background: #C4DFE6;
+    border-radius: 5px;
+}
+
+.text-hard {
+    color: #003B46;
+}
