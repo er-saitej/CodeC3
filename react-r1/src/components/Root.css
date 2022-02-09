@@ -4,6 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a, a:focus, a:active, a:link, a:hover {
+    background: inherit;
+    outline: inherit;
+    border: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .btn:focus,.btn:active {
     outline: none !important;
     box-shadow: none;

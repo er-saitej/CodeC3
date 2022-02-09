@@ -3,6 +3,11 @@
     color: #C4DFE6;
 }
 
+#rootBadge {
+    background: #C4DFE6;
+    color: #003B46;
+}
+
 .jumbotron {
     background: #C4DFE6;
     border-radius: 5px;
