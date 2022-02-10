@@ -6,6 +6,7 @@
 #rootBadge {
     background: #C4DFE6;
     color: #003B46;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 4px;
 }
 
 .jumbotron {

@@ -25,6 +25,10 @@ const ConnectSocially = () => {
           initial={{
             scale:1
           }}
+          whileInView={{
+            scale: [1, 0.5, 0.8, 0.7, 1],
+          }}
+          viewport={{once:true}}
           whileTap={{
             scale: 0.8,
             scaleZ: -3
