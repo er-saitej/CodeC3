@@ -3,28 +3,3 @@
     background: #003B46;
     color: #C4DFE6;
 }
-
-.rootIllustration {
-    height: 90vh;
-    width: 45vw;
-}
-
-.rootHead {
-    font-size: 150px;
-}
-
-@media (max-width: 992px) {
-    .rootIllustration {
-        height: 50vh;
-        width: 90vw;
-    }
-    .rootHead {
-        font-size: 150px;
-    }
-}
-
-@media (max-width: 768px) {
-    .rootHead {
-        font-size: 90px;
-    }
-}

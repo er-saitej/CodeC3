@@ -1,0 +1,22 @@
+.rootHead {
+    font-size: 150px;
+}
+
+.typerText {
+    font-size: 38px;
+}
+
+@media (max-width: 992px) {
+    .rootHead {
+        font-size: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rootHead {
+        font-size: 90px;
+    }
+    .typerText {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,17 @@
+.rootIllustration {
+    height: 90vh;
+    width: 45vw;
+}
+
+#rootBadge {
+    background: #C4DFE6;
+    color: #003B46;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 4px;
+}
+
+@media (max-width: 992px) {
+    .rootIllustration {
+        height: 40vh;
+        width: 80vw;
+    }
+}
