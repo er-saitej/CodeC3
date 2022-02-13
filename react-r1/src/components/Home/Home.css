@@ -3,3 +3,7 @@
     background: #003B46;
     color: #C4DFE6;
 }
+#rootSection {
+    min-height: 40vh;
+    text-align: justify;
+}

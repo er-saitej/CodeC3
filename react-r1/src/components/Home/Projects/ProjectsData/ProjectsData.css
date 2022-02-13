@@ -1,0 +1,32 @@
+.projectCard {
+    height: 30vh;
+    min-width: 30vw;
+    cursor: grab;
+    border-radius: 0.7rem;
+}
+
+.inner-carousel {
+    display: flex;
+}
+
+.main-carousel {
+    overflow: hidden;
+}
+
+.text-description {
+    text-align: justify;
+}
+
+.text-footer {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-top: none;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .projectCard {
+        height: 50vh;
+        min-width: 80vw;
+    }
+}

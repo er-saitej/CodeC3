@@ -1,6 +1,7 @@
 .rootIllustration {
     height: 90vh;
     width: 45vw;
+    cursor: grab;
 }
 
 #rootBadge {
