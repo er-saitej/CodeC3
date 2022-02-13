@@ -45,6 +45,3 @@ const ConnectSocially = () => {
 };
 
 export default ConnectSocially;
-
-
-// Installing Framer motion
