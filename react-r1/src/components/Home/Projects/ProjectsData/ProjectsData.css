@@ -3,6 +3,11 @@
     min-width: 30vw;
     cursor: grab;
     border-radius: 0.7rem;
+    border: 0.5px solid #003B46;
+    background-size: '500px 500px';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    color: #C4DFE6;
 }
 
 .inner-carousel {
@@ -15,18 +20,25 @@
 
 .text-description {
     text-align: justify;
+    height: 25vh;
+    overflow: hidden;
+    z-index: 3;
 }
 
 .text-footer {
     font-weight: 700;
     letter-spacing: 2px;
-    border-top: none;
     text-align: justify;
+    background: #C4DFE6;
+    color: #003B46;
 }
 
 @media (max-width: 768px) {
     .projectCard {
         height: 50vh;
         min-width: 80vw;
+    }
+    .text-description {
+        height: 45vh;
     }
 }

@@ -18,11 +18,11 @@ const ProjectsData = () => {
                     left: -leftWidth
                 }}>
                 {ProejctsList.map((element)=>(
-                    <div key={element.id} className='card projectCard mx-1 mx-lg-2'>
-                        <div className='card-body text-description justify-content-center align-middle'>
+                    <div key={element.key} className='projectCard mx-1 mx-lg-2' style={{backgroundImage:`url(${element.projectImage})`, backgroundSize: '500px 500px',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
+                        <div className='text-description justify-content-center align-middle px-2 py-1'>
                             {element.projectDescription}
                         </div>
-                        <div className='card-footer text-footer h4 justify-content-center text-center'>
+                        <div className='text-footer h4 justify-content-center text-center'>
                             {element.projectName}
                         </div>
                     </div>
